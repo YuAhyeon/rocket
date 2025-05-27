@@ -16,6 +16,14 @@ const config: Config = {
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
+        border: {
+          default: 'var(--border-default)',
+          muted: 'var(--border-muted)',
+        },
+        table: {
+          bg: 'var(--table-bg)',
+          border: 'var(--table-border)',
+        },
       },
     },
   },
