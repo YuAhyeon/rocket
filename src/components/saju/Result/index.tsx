@@ -15,7 +15,7 @@ export default function Result({ user }: ResultProps) {
   const formatted = `${date.getFullYear()}년 ${date.getMonth() + 1}월 ${date.getDate()}일 ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`;
 
   return (
-    <div className="relative top-[-22px] w-full h-fit mb-[80px] px-[12px]">
+    <div className="relative top-[-22px] w-full h-fit px-[12px] drop-shadow-table">
       <div className="relative w-full border-[3px] border-[#1B2F49]">
         <div className="absolute h-full top-0 left-[5px] border border-border-muted" />
         <div className="absolute h-full top-0 right-[5px] border border-border-muted" />

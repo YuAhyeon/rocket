@@ -25,6 +25,9 @@ const config: Config = {
           border: 'var(--table-border)',
         },
       },
+      dropShadow: {
+        table: '0px 4px 4px rgba(0, 0, 0, 0.25)',
+      },
     },
   },
   plugins: [tailwindcssAnimate, typography],

@@ -4,7 +4,7 @@ import { Result } from '@/components/saju';
 
 export default function P1() {
   return (
-    <section className="relative w-full h-full overflow-y-auto scrollbar-hide select-none">
+    <section className="relative w-full h-full select-none ">
       <div className="relative w-full aspect-[375/1403]">
         <Image
           src="/images/p1.png"
@@ -32,7 +32,9 @@ export default function P1() {
           </p>
         </div>
       </div>
-      <Result user={user} />
+      <div className="pb-[80px]">
+        <Result user={user} />
+      </div>
     </section>
   );
 }
