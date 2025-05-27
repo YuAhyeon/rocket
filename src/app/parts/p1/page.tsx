@@ -4,7 +4,7 @@ import { Result } from '@/components/saju';
 
 export default function P1() {
   return (
-    <section className="relative w-full h-full overflow-y-auto scrollbar-hide">
+    <section className="relative w-full h-full overflow-y-auto scrollbar-hide select-none">
       <div className="relative w-full aspect-[375/1403]">
         <Image
           src="/images/p1.png"

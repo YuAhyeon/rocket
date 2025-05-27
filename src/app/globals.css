@@ -26,6 +26,15 @@
   display: none;
 }
 
+*:focus,
+a:focus,
+a:focus-visible,
+div:focus,
+div:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
